@@ -163,7 +163,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-3">20+ Years</h3>
-              <p className="text-blue-100">Registered electrician, telecom software architect, and Victron service engineer with deep expertise in energy systems.</p>
+              <p className="text-blue-100">Registered electrician working with Australia and New Zealand standards, telecom software architect, and Victron service engineer with deep expertise in energy systems.</p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-3">Hands-On</h3>
