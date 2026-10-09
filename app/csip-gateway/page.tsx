@@ -9,17 +9,32 @@ export const metadata = {
 const today = [
   {
     title: 'Connects over WiFi',
-    body: "Joins the site's own 2.4 GHz WiFi network, so there is no extra cabling and no separate hub to install.",
+    body: "Joins the site's own 2.4 GHz WiFi network, so there is no extra cabling and no separate hub to install. Setup takes a few minutes with a phone: scan the QR code on the screen and pick the network.",
     color: '#12A594',
   },
   {
-    title: 'Reports every 30 seconds',
-    body: 'Sends a status update to the cloud over a secure HTTPS connection, so you can see that a site is online without visiting it.',
+    title: 'Reads the site from a Victron GX',
+    body: 'Connects to a Victron GX device (such as a Cerbo GX) on the local network and reads solar, grid, load and battery figures, including from a Fronius inverter the GX already monitors.',
     color: '#F5A524',
   },
   {
-    title: 'Shows its status on the display',
-    body: 'A 2.8 inch colour screen shows the WiFi state, the IP address and the result of the last report. A status light turns green when a report succeeds and red when it fails.',
+    title: 'Receives network operator commands',
+    body: 'Commands from the network operator arrive within about a minute. The screen shows the active export limit and the seconds remaining, and commands can go to one site, a group of sites or every site at once.',
+    color: '#2563A8',
+  },
+  {
+    title: 'Reports in CSIP-AUS format',
+    body: 'Builds 5-minute reports as set out in SA TS 5573: site and generation power, voltage, frequency and connection status, each tied to the site\'s ICP or NMI. Status updates go to the cloud every 30 seconds over HTTPS.',
+    color: '#12A594',
+  },
+  {
+    title: 'A portal for each network operator',
+    body: 'Each network operator has its own login and sees only the sites connected to its network, with live totals, a report per site and downloads in CSV and IEEE 2030.5 formats.',
+    color: '#F5A524',
+  },
+  {
+    title: 'Touchscreen display and remote updates',
+    body: 'A 2.8 inch colour touchscreen cycles through the clock, operator control, site figures and unit details. New firmware is delivered over the internet, so units in the field stay up to date without a visit.',
     color: '#2563A8',
   },
 ];
@@ -28,8 +43,10 @@ const specs = [
   ['Controller', 'ESP32'],
   ['Display', '2.8 inch colour TFT, 320 x 240'],
   ['Network', 'WiFi, 2.4 GHz'],
-  ['Reporting', 'Every 30 seconds, over HTTPS'],
-  ['Status light', 'RGB LED: green for success, red for failure'],
+  ['Reporting', 'Every 30 seconds over HTTPS; CSIP-AUS 5-minute reports (SA TS 5573)'],
+  ['Site data', 'Victron GX over the local network (MQTT)'],
+  ['Status light', 'RGB LED: cycles colours when reporting, red if a report fails'],
+  ['Updates', 'Firmware updates over the internet'],
   ['Power', '5 V, 2 A supply (a phone charger works)'],
   ['Enclosure', '3D printed, with screw tabs for mounting'],
 ];
@@ -84,10 +101,10 @@ export default function CsipGateway() {
         </div>
       </section>
 
-      {/* What it does today */}
+      {/* What it does */}
       <section className="bg-sky-50 py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">What it does today</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">What it does</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {today.map((item) => (
               <div
@@ -133,28 +150,6 @@ export default function CsipGateway() {
                 </div>
               ))}
             </dl>
-          </div>
-        </div>
-      </section>
-
-      {/* In development */}
-      <section className="bg-sky-50 py-12 sm:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">In development</h2>
-          <p className="text-gray-600 mb-8 max-w-2xl">These features are being designed and are not available yet.</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 sm:p-8 rounded-lg shadow">
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Export limit control</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Writing export limits to a Victron GX device, and to inverters such as the Fronius Primo through Modbus.
-              </p>
-            </div>
-            <div className="bg-white p-6 sm:p-8 rounded-lg shadow">
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">CSIP commands</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Receiving commands from a CSIP server and acting on them at the site.
-              </p>
-            </div>
           </div>
         </div>
       </section>
