@@ -41,7 +41,7 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Background</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                I'm a registered electrician and telecom software architect based in New Zealand with two decades of experience bridging hardware and software systems.
+                I'm a registered New Zealand electrician working with Australia and New Zealand standards, and a telecom software architect, with two decades of experience bridging hardware and software systems.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 My background spans everything from electrical installation to network architecture, but I've found my real passion in solving the specific problem: when you need solar inverters, battery controllers, monitoring systems, and cloud platforms all talking to each other—but they're made by different manufacturers with incompatible protocols.
