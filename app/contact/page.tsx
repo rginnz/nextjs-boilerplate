@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import Link from 'next/link';
 import { useState } from 'react';
@@ -45,7 +45,7 @@ export default function Contact() {
               <line x1="100" y1="145" x2="100" y2="220" stroke="#0F3D7B" strokeWidth="5" strokeLinecap="round"/>
               <circle cx="100" cy="240" r="16" fill="white" stroke="#0F3D7B" strokeWidth="4"/>
             </svg>
-            <span className="text-xl font-bold text-gray-900">RG Energy</span>
+            <span className="text-base sm:text-xl font-bold text-gray-900 leading-tight">RG Energy Integration Solutions</span>
           </Link>
           <div className="flex gap-8">
             <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
@@ -167,7 +167,7 @@ export default function Contact() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p>&copy; 2026 RG Energy Integrations. All rights reserved.</p>
+          <p>&copy; 2026 RG Energy Integration Solutions. All rights reserved.</p>
         </div>
       </footer>
     </main>
