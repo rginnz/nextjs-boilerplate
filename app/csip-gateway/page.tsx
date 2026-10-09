@@ -136,7 +136,7 @@ export default function CsipGateway() {
               </p>
               <p>
                 <span className="font-semibold text-gray-900">Registration. </span>
-                Each unit has a unique ID, taken from its network address. The cloud service only accepts registered units, so an unregistered unit cannot send data.
+                Each unit has a unique ID, which is then listed in the database with a licence.
               </p>
             </div>
           </div>
