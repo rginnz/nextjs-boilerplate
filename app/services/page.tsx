@@ -128,6 +128,7 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
+              {service.title === "Custom Hardware Gateways" && (<img src="/cyd-gateway.jpg" alt="RGEI CSIP Gateway with colour display" width={1045} height={717} loading="lazy" className="w-full h-auto rounded-xl mt-6" />)}
             </div>
           ))}
         </div>
