@@ -7,7 +7,7 @@ export default function Home() {
       <nav className="border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <svg viewBox="0 0 200 280" className="w-6 h-8" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 200 280" className="w-5 h-7" xmlns="http://www.w3.org/2000/svg">
               <circle cx="100" cy="120" r="20" fill="white" stroke="#0F3D7B" strokeWidth="4"/>
               <line x1="100" y1="95" x2="100" y2="30" stroke="#0F3D7B" strokeWidth="5" strokeLinecap="round"/>
               <path d="M 80 15 L 100 0 L 120 15 Z" fill="white" stroke="#0F3D7B" strokeWidth="4" strokeLinejoin="round"/>
@@ -45,8 +45,8 @@ export default function Home() {
               Get in Touch
             </Link>
           </div>
-          <div className="flex justify-center">
-            <svg viewBox="0 0 200 280" className="w-48 h-64 sm:w-56 sm:h-72 md:w-64 md:h-80 max-w-full" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex justify-center items-center">
+            <svg viewBox="0 0 200 280" className="w-32 h-44 sm:w-40 sm:h-56 md:w-48 md:h-64" xmlns="http://www.w3.org/2000/svg">
               <circle cx="100" cy="120" r="20" fill="white" stroke="#0F3D7B" strokeWidth="4"/>
               <line x1="100" y1="95" x2="100" y2="30" stroke="#0F3D7B" strokeWidth="5" strokeLinecap="round"/>
               <path d="M 80 15 L 100 0 L 120 15 Z" fill="white" stroke="#0F3D7B" strokeWidth="4" strokeLinejoin="round"/>
