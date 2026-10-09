@@ -43,7 +43,7 @@ export default function Home() {
               className="inline-block bg-blue-900 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold hover:bg-blue-800 transition text-sm sm:text-base"
             >
               Get in Touch
-            </Link><p className="mt-4 text-sm text-gray-500">Raymond Greenfield, Founder</p>
+            </Link>
           </div>
           <div className="flex justify-center items-center">
             <svg viewBox="0 0 200 280" className="w-32 h-44 sm:w-40 sm:h-56 md:w-48 md:h-64" xmlns="http://www.w3.org/2000/svg">
@@ -99,7 +99,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-sm sm:text-base">&copy; 2026 Raymond Greenfield, RG Energy Integration Solutions. All rights reserved.</p>
+          <p className="text-sm sm:text-base">&copy; 2026 RG Energy Integration Solutions. All rights reserved.</p>
         </div>
       </footer>
     </main>

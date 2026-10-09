@@ -194,7 +194,7 @@ export default function Services() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p>&copy; 2026 Raymond Greenfield, RG Energy Integration Solutions. All rights reserved.</p>
+          <p>&copy; 2026 RG Energy Integration Solutions. All rights reserved.</p>
         </div>
       </footer>
     </main>
