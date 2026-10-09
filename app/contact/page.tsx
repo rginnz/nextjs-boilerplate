@@ -58,7 +58,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-5xl font-bold text-gray-900 mb-4">Get in Touch</h1>
-        <p className="text-xl text-gray-600">Let's discuss your integration challenge.</p>
+        <p className="text-xl text-gray-600">Let&apos;s discuss your integration challenge. I&apos;m Raymond Greenfield, and I&apos;ll reply personally.</p>
       </section>
 
       {/* Contact Form */}
@@ -167,7 +167,7 @@ export default function Contact() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p>&copy; 2026 RG Energy Integration Solutions. All rights reserved.</p>
+          <p>&copy; 2026 Raymond Greenfield, RG Energy Integration Solutions. All rights reserved.</p>
         </div>
       </footer>
     </main>
