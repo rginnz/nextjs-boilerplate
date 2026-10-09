@@ -59,7 +59,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-900 font-bold mr-3">→</span>
-                  <span className="text-gray-600"><strong>Telecom Architect</strong> — network design, infrastructure, distributed systems</span>
+                  <span className="text-gray-600"><strong>Telecom Software Architect</strong> — network design, infrastructure, distributed systems</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-900 font-bold mr-3">→</span>
