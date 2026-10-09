@@ -82,7 +82,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Product Section */}
+      <section className="bg-white py-12 sm:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <img
+            src="/cyd-gateway.jpg"
+            alt="RGEI CSIP Gateway: a blue 3D-printed enclosure with a colour display showing the About screen"
+            width={1045}
+            height={717}
+            loading="lazy"
+            className="w-full h-auto rounded-2xl shadow-lg border-b-4 border-teal-500"
+          />
+          <div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">The CSIP Gateway</h2>
+            <p className="text-base sm:text-lg text-gray-600 mb-4">
+              A compact, purpose-built gateway with its own display, so you can see what it is doing without opening a laptop.
+            </p>
+            <p className="text-base sm:text-lg text-gray-600 mb-6">
+              Designed, programmed and built in-house, and tested on real hardware before it reaches an installation.
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block bg-amber-400 text-blue-950 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold hover:bg-amber-300 transition text-sm sm:text-base"
+            >
+              Ask about custom gateways
+            </Link>
+          </div>
+        </div>
+      </section>
+
+{/* CTA Section */}
       <section className="bg-blue-900 text-white py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">Ready to integrate?</h2>
