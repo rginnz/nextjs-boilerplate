@@ -1,4 +1,4 @@
-# RG Energy Integration Solutions: website project
+﻿# RG Energy Integration Solutions: website project
 
 Everything needed to understand, rebuild or extend the site at https://rgeis.com.
 Last updated 2026-10-10.
@@ -55,8 +55,7 @@ Google Search Console is verified for the `rgeis.com` domain property.
 - Raymond is described as a registered New Zealand electrician working with Australia and New Zealand
   standards, and a telecom software architect, with 20+ years of experience.
 - The Australasian installer ecosystem is the stated market.
-- The CSIP Gateway page lists only what works today (WiFi, 30-second reports, display, status light) and
-  marks export limit control and CSIP commands as in development. Keep it that way until they ship.
+- The CSIP Gateway page lists only features that work today. It was rewritten on 2026-10-10 to cover GX monitoring, operator commands, CSIP-AUS reporting, the operator portal and internet updates. Check it against the firmware before changing it.
 
 ## How to redo this from scratch
 
@@ -76,7 +75,7 @@ Never name a PowerShell variable `$home` (it is reserved).
 
 - **Make the repo private.** GitHub, repo Settings, Danger Zone, Change visibility. It is public at the time of writing.
 - Check the SPF TXT record exists (see DNS).
-- `scripts/add-operator.ps1` (network operator wording on the gateway page) had not been run.
+- `scripts/add-operator.ps1` is superseded: the rewritten gateway page already covers the network operator link.
 - The gateway's on-screen text says "RG Energy Integrations" and "Integration Services". The site says "Integration Solutions". Align the firmware text.
 - Add a sitemap, `robots.txt` and a description for each page (Google indexing).
 - Request indexing for each page in Search Console.
