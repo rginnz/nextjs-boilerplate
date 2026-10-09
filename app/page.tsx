@@ -33,7 +33,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-              If your devices won't talk to each other, talk to me.
+              If your devices won't talk to each other, talk to me.<span className="block mt-3 text-2xl sm:text-3xl font-semibold text-blue-900">If your energy systems won&apos;t talk to each other, talk to me.</span>
             </h1>
             <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8">
               Hardware-software integration for solar, battery, and energy systems. Making incompatible devices work seamlessly together.
