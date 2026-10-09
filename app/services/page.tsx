@@ -171,7 +171,7 @@ export default function Services() {
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-3">Local</h3>
-              <p className="text-blue-100">Based in New Zealand. I understand the local solar/battery installer ecosystem inside out.</p>
+              <p className="text-blue-100">Based in New Zealand, I understand the Australasian local solar/battery installer ecosystem inside out.</p>
             </div>
           </div>
         </div>
