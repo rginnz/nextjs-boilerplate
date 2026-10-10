@@ -39,11 +39,12 @@ export default function Services() {
     },
     {
       title: 'System Design & Consulting',
-      description: "Before building, let's map out your entire system to ensure every piece works together.",
+      description: "Before anything is built, we map your whole system so every device, protocol and network connection works together.",
       points: [
         'Equipment compatibility audit',
         'Integration feasibility study',
         'Architecture & design review',
+        'Network operator consulting for CSIP-AUS connections',
         'Technical documentation'
       ],
       icon: '📋'
