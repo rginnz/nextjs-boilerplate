@@ -1,9 +1,9 @@
 ﻿import Link from 'next/link';
 
 export const metadata = {
-  title: 'RG EIS Gateway | RG Energy Solutions',
+  title: 'RGEI Gateway | RG Energy Solutions',
   description:
-    'The RG EIS Gateway: a gateway designed to connect your devices so that they talk to each other and then connect to the cloud using standards and protocols.',
+    'The RGEI Gateway: a gateway designed to connect your devices so that they talk to each other and then connect to the cloud using standards and protocols.',
 };
 
 const today = [
@@ -83,7 +83,7 @@ export default function CsipGateway() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">RG EIS Gateway</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">RGEI Gateway</h1>
             <p className="text-base sm:text-lg text-gray-600 mb-4">A gateway designed to connect your devices so that they talk to each other and then connect to the cloud using standards and protocols.</p>
             <p className="text-base sm:text-lg text-gray-600">
               Designed, programmed and built in-house.
@@ -91,7 +91,7 @@ export default function CsipGateway() {
           </div>
           <img
             src="/cyd-gateway.jpg"
-            alt="RGEI CSIP Gateway: a blue 3D-printed enclosure with a colour display showing the About screen"
+            alt="RGEI Gateway: a blue 3D-printed enclosure with a colour display showing the About screen"
             width={1045}
             height={717}
             className="w-full h-auto rounded-2xl shadow-lg border-b-4 border-teal-500"
