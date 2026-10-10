@@ -3,7 +3,7 @@
 export const metadata = {
   title: 'RG EIS Gateway | RG Energy Solutions',
   description:
-    'The RG EIS Gateway: a gateway designed to connect your infrastructures so that they talk to each other and then connect to the cloud using standards and protocols.',
+    'The RG EIS Gateway: a gateway designed to connect your devices so that they talk to each other and then connect to the cloud using standards and protocols.',
 };
 
 const today = [
@@ -84,7 +84,7 @@ export default function CsipGateway() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">RG EIS Gateway</h1>
-            <p className="text-base sm:text-lg text-gray-600 mb-4">A gateway designed to connect your infrastructures so that they talk to each other and then connect to the cloud using standards and protocols.</p>
+            <p className="text-base sm:text-lg text-gray-600 mb-4">A gateway designed to connect your devices so that they talk to each other and then connect to the cloud using standards and protocols.</p>
             <p className="text-base sm:text-lg text-gray-600">
               Designed, programmed and built in-house.
             </p>
