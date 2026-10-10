@@ -1,9 +1,9 @@
 ﻿import Link from 'next/link';
 
 export const metadata = {
-  title: 'CSIP Gateway | RG Energy Solutions',
+  title: 'RG EIS Gateway | RG Energy Solutions',
   description:
-    'The RGEI CSIP Gateway: a compact ESP32 gateway with a built-in colour display that connects an installation to the cloud and shows its status at a glance.',
+    'The RG EIS Gateway: a gateway designed to connect your infrastructures so that they talk to each other and then connect to the cloud using standards and protocols.',
 };
 
 const today = [
@@ -83,10 +83,8 @@ export default function CsipGateway() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">CSIP Gateway</h1>
-            <p className="text-base sm:text-lg text-gray-600 mb-4">
-              A small gateway with its own display. It connects an installation to the cloud and shows what it is doing, without opening a laptop.
-            </p>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">RG EIS Gateway</h1>
+            <p className="text-base sm:text-lg text-gray-600 mb-4">A gateway designed to connect your infrastructures so that they talk to each other and then connect to the cloud using standards and protocols.</p>
             <p className="text-base sm:text-lg text-gray-600">
               Designed, programmed and built in-house.
             </p>
