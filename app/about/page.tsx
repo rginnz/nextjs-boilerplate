@@ -82,14 +82,10 @@ export default function About() {
       {/* Philosophy */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Philosophy</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-blue-50 p-8 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Reliability Over Complexity</h3>
             <p className="text-gray-600">Your system shouldn't require a degree to operate. I build integrations that are robust, simple to troubleshoot, and survive firmware updates.</p>
-          </div>
-          <div className="bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">You Own It</h3>
-            <p className="text-gray-600">I'm not building vendor lock-in. You get documentation, training, and the ability to support or modify the system without me.</p>
           </div>
           <div className="bg-blue-50 p-8 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Real-World Testing</h3>
