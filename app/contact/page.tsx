@@ -37,7 +37,7 @@ export default function Contact() {
         setSubmitted(false);
       }, 5000);
     } catch {
-      setError('Sorry, your message could not be sent. Please email hello@rgeis.com instead.');
+      setError('Sorry, your message could not be sent. Please email raymond@rgeis.com instead.');
     } finally {
       setSending(false);
     }
@@ -168,8 +168,8 @@ export default function Contact() {
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
               <p className="text-gray-600">
-                <a href="mailto:hello@rgeis.com" className="text-blue-900 hover:underline">
-                  hello@rgeis.com
+                <a href="mailto:raymond@rgeis.com" className="text-blue-900 hover:underline">
+                  raymond@rgeis.com
                 </a>
               </p>
             </div>

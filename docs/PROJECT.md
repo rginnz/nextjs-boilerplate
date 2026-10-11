@@ -20,7 +20,7 @@ integration for New Zealand and Australian solar and battery installers.
 
 - Next.js (App Router, TypeScript) with **Tailwind CSS v4**
 - GitHub: `rginnz/nextjs-boilerplate`, deployed automatically by Vercel on every push to `main`
-- Domain and DNS: Only Domains. Email: Titan, hosted by Only Domains (`hello@rgeis.com`)
+- Domain and DNS: Only Domains. Email: Titan, hosted by Only Domains (`raymond@rgeis.com`)
 
 **Tailwind v4 rule:** `app/globals.css` must start with `@import "tailwindcss";`.
 The old `@tailwind base;` lines do nothing in v4, and the site renders completely unstyled.
