@@ -17,15 +17,30 @@ export default function Contact() {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, this would send to your email service
-    console.log('Form submitted:', formData);
-    setSubmitted(true);
-    setTimeout(() => {
-      setFormData({ name: '', email: '', company: '', message: '' });
-      setSubmitted(false);
-    }, 3000);
+    setSending(true);
+    setError('');
+    try {
+      const res = await fetch('https://formspree.io/f/moejwpbq', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error('Request failed');
+      setSubmitted(true);
+      setTimeout(() => {
+        setFormData({ name: '', email: '', company: '', message: '' });
+        setSubmitted(false);
+      }, 5000);
+    } catch {
+      setError('Sorry, your message could not be sent. Please email hello@rgeis.com instead.');
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -136,11 +151,13 @@ export default function Contact() {
                   />
                 </div>
 
+                {error && <p className="text-red-700 mb-4">{error}</p>}
                 <button
                   type="submit"
-                  className="w-full bg-blue-900 text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition"
+                  disabled={sending}
+                  className="w-full bg-blue-900 text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition disabled:opacity-60"
                 >
-                  Send Message
+                  {sending ? 'Sending...' : 'Send Message'}
                 </button>
               </form>
             )}
