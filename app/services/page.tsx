@@ -44,7 +44,7 @@ export default function Services() {
         'Equipment compatibility audit',
         'Integration feasibility study',
         'Architecture & design review',
-        'CSIP-AUS implementation consulting',
+        'Network operator CSIP-AUS implementation consulting',
         'Technical documentation'
       ],
       icon: '📋'
