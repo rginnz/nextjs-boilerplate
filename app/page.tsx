@@ -85,14 +85,14 @@ export default function Home() {
       {/* Product Section */}
       <section className="bg-white py-12 sm:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-          <Link href="/csip-gateway" className="block transition hover:opacity-90"><img
+          <Link href="/gateway-features" className="block transition hover:opacity-90"><img
             src="/cyd-gateway.jpg"
             alt="RGEI Gateway: a blue 3D-printed enclosure with a colour display showing the About screen"
             width={1045}
             height={717}
             loading="lazy"
             className="w-full h-auto rounded-2xl shadow-lg border-b-4 border-teal-500"
-          /><span className="block mt-3 text-sm font-semibold text-blue-900">See how the gateway works</span></Link>
+          /><span className="block mt-3 text-sm font-semibold text-blue-900">See the full feature list</span></Link>
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">The RGEI Gateway</h2>
             <p className="text-base sm:text-lg text-gray-600 mb-4">
