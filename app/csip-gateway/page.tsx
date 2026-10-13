@@ -88,6 +88,9 @@ export default function CsipGateway() {
             <p className="text-base sm:text-lg text-gray-600">
               Designed, programmed and built in-house.
             </p>
+            <p className="mt-6">
+              <Link href="/gateway-features" className="font-semibold text-blue-900 hover:underline">Full feature list &rarr;</Link>
+            </p>
           </div>
           <img
             src="/cyd-gateway.jpg"
