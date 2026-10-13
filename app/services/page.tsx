@@ -81,7 +81,7 @@ export default function Services() {
     {
       step: '04',
       title: 'Deploy & Train',
-      description: 'Installation, configuration, and full training so you can operate and maintain it independently.'
+      description: 'Installation, configuration, full training, and full documentation provided, so you can operate and maintain it independently.'
     }
   ];
 
