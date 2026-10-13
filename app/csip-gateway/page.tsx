@@ -58,17 +58,7 @@ export default function CsipGateway() {
       <nav className="border-b-2 border-blue-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <svg viewBox="0 0 200 280" className="w-5 h-7" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="100" cy="120" r="20" fill="white" stroke="#0F3D7B" strokeWidth="4"/>
-              <line x1="100" y1="95" x2="100" y2="30" stroke="#0F3D7B" strokeWidth="5" strokeLinecap="round"/>
-              <path d="M 80 15 L 100 0 L 120 15 Z" fill="#FDE9B8" stroke="#F5A524" strokeWidth="4" strokeLinejoin="round"/>
-              <line x1="82" y1="110" x2="25" y2="80" stroke="#0F3D7B" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
-              <circle cx="15" cy="75" r="16" fill="#DCE8F7" stroke="#0F3D7B" strokeWidth="4"/>
-              <line x1="118" y1="110" x2="170" y2="70" stroke="#0F3D7B" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
-              <rect x="158" y="54" width="30" height="30" fill="#CDEFE9" stroke="#12A594" strokeWidth="4" rx="4"/>
-              <line x1="100" y1="145" x2="100" y2="220" stroke="#0F3D7B" strokeWidth="5" strokeLinecap="round"/>
-              <circle cx="100" cy="240" r="16" fill="white" stroke="#0F3D7B" strokeWidth="4"/>
-            </svg>
+            <img src="/rg-logo.svg" alt="RG Energy Integration Solutions logo" className="w-12 h-auto" />
             <span className="text-base sm:text-xl font-bold text-gray-900 leading-tight">RG Energy Integration Solutions</span>
           </Link>
           <div className="flex gap-6 text-sm sm:text-base">
