@@ -36,6 +36,7 @@ const today = [
     title: 'Touchscreen display and remote updates',
     body: 'A 2.8 inch colour touchscreen cycles through the clock, operator control, site figures and unit details. New firmware is delivered over the internet, so units in the field stay up to date without a visit.',
     color: '#2563A8',
+    image: { src: '/cyd-firmware-update.jpg', alt: 'The RGEI Gateway screen during a remote firmware update, showing a progress bar at 70 percent', caption: 'A remote firmware update in progress on the unit\'s screen.' },
   },
 ];
 
@@ -105,6 +106,12 @@ export default function CsipGateway() {
               >
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{item.body}</p>
+                {item.image && (
+                  <figure className="mt-5">
+                    <img src={item.image.src} alt={item.image.alt} width={1280} height={960} loading="lazy" className="w-full h-auto rounded-lg border border-gray-200" />
+                    <figcaption className="mt-2 text-sm text-gray-500">{item.image.caption}</figcaption>
+                  </figure>
+                )}
               </div>
             ))}
           </div>
