@@ -101,6 +101,9 @@ export default function Home() {
             <p className="text-base sm:text-lg text-gray-600 mb-6">
               Designed, programmed and built in-house, and tested on real hardware before it reaches an installation.
             </p>
+            <p className="mb-6">
+              <Link href="/gateway-features" className="font-semibold text-blue-900 hover:underline">Full feature list &rarr;</Link>
+            </p>
             <Link
               href="/contact"
               className="inline-block bg-amber-400 text-blue-950 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold hover:bg-amber-300 transition text-sm sm:text-base"
