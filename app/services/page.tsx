@@ -48,6 +48,17 @@ export default function Services() {
         'Technical documentation'
       ],
       icon: '📋'
+    },
+    {
+      title: 'Node Red and Node Red Specialist Flows, Node Red Integrations, Complex Node Red Flows Specialist',
+      description: "Node-RED flows built for real installations, from simple automations to complex multi-system integrations.",
+      points: [
+        'Specialist flow design & build',
+        'Device, MQTT & cloud integrations',
+        'Complex flow rework & troubleshooting',
+        'Flow backup & version control'
+      ],
+      icon: '🔀'
     }
   ];
 
