@@ -19,7 +19,7 @@ export default function Services() {
       title: 'Protocol Translation',
       description: 'Your devices speak different languages. I build the real-time translators between them.',
       points: [
-        'CSIP (Clean Energy Council)',
+        'CSIP-AUS (network operator communication)',
         'OpenADR (grid integration)',
         'Modbus (industrial standard)',
         'Proprietary APIs & protocols'
@@ -33,13 +33,13 @@ export default function Services() {
         'Custom device drivers',
         'Real-time telemetry',
         'Display controllers & dashboards',
-        'Failsafe & redundancy logic'
+        'Fail-safe & redundancy logic'
       ],
       icon: '⚙️'
     },
     {
       title: 'System Design & Consulting',
-      description: "Before anything is built, we map your whole system so every device, protocol and network connection works together.",
+      description: "Before anything is built, I map your whole system so every device, protocol and network connection works together.",
       points: [
         'Equipment compatibility audit',
         'Integration feasibility study',
@@ -50,7 +50,7 @@ export default function Services() {
       icon: '📋'
     },
     {
-      title: 'Node Red and Node Red Specialist Flows, Node Red Integrations, Complex Node Red Flows Specialist',
+      title: 'Node-RED Specialist: Complex Flows & Integrations',
       description: "Node-RED flows built for real installations, from simple automations to complex multi-system integrations.",
       points: [
         'Specialist flow design & build',
@@ -66,7 +66,7 @@ export default function Services() {
     {
       step: '01',
       title: 'Understand Your Setup',
-      description: 'We map out exactly what devices you have, what protocols they support, and what needs to flow between them.'
+      description: 'I map out exactly what devices you have, what protocols they support, and what needs to flow between them.'
     },
     {
       step: '02',
@@ -130,7 +130,7 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
-              {service.title === "Custom Hardware Gateways" && (<Link href="/csip-gateway" className="block mt-6 transition hover:opacity-90"><img src="/cyd-gateway.jpg" alt="RGEI Gateway with colour display" width={1045} height={717} loading="lazy" className="w-full h-auto rounded-xl mt-6" /><span className="block mt-2 text-sm font-semibold text-blue-900">See how the gateway works</span></Link>)}
+              {service.title === "Custom Hardware Gateways" && (<Link href="/csip-gateway" className="block mt-6 transition hover:opacity-90"><img src="/cyd-gateway.jpg" alt="RGEI Gateway with colour display" width={1045} height={717} loading="lazy" className="w-full h-auto rounded-xl mt-6" /><span className="block mt-2 text-sm font-semibold text-blue-900">See how the RGEI Gateway works</span></Link>)}
             </div>
           ))}
         </div>
@@ -184,7 +184,7 @@ export default function Services() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Ready to integrate your system?</h2>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Let's talk about your specific setup and what we can build together.
+          Let's talk about your specific setup and what I can build for you.
         </p>
         <Link
           href="/contact"
